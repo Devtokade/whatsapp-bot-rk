@@ -111,7 +111,7 @@ var menu = `╭═══〘 ${BOT_INFO.split(";")[0]} 〙═══⊷❍
 return await message.sendImageTemplate(await skbuffer(BOT_INFO.split(";")[3]),FancyRandom(menu),"All rights reserved "+BOT_INFO.split(";")[0],buttons);
 }))
 Module({
-  pattern: 'alive',
+  pattern: 'hello',
   fromMe: w,
   desc: 'Is bot alive?'
 }, (async (message, match) => {
